@@ -3,21 +3,13 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Destinations | Lesotho Trails</title>
 
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
     <style>
-
-        /* =========================
-           GENERAL
-        ========================= */
-
         * {
             box-sizing: border-box;
         }
@@ -39,11 +31,6 @@
             text-decoration: none;
         }
 
-
-        /* =========================
-           HEADER
-        ========================= */
-
         .header {
             background-color: #25352c;
             color: white;
@@ -53,11 +40,6 @@
             align-items: center;
             min-height: 100px;
         }
-
-
-        /* =========================
-           LOGO - LEFT
-        ========================= */
 
         .logo-container {
             display: flex;
@@ -90,11 +72,6 @@
             letter-spacing: 3px;
         }
 
-
-        /* =========================
-           WEBSITE HEADING - CENTER
-        ========================= */
-
         .header h1 {
             color: white;
             text-align: center;
@@ -102,11 +79,6 @@
             letter-spacing: 2px;
             margin: 0;
         }
-
-
-        /* =========================
-           NAVIGATION - RIGHT
-        ========================= */
 
         .navigation {
             display: flex;
@@ -138,11 +110,6 @@
             cursor: pointer;
         }
 
-
-        /* =========================
-           PAGE INTRODUCTION
-        ========================= */
-
         .page-hero {
             background-color: #e8e5da;
             padding: 70px 8%;
@@ -171,11 +138,6 @@
             font-size: 16px;
         }
 
-
-        /* =========================
-           MAIN CONTENT
-        ========================= */
-
         .content-section {
             width: 84%;
             max-width: 1200px;
@@ -198,11 +160,6 @@
         .section-heading h2 em {
             color: #8a6c36;
         }
-
-
-        /* =========================
-           SEARCH BOX
-        ========================= */
 
         .search-box {
             display: flex;
@@ -234,11 +191,6 @@
             outline: none;
         }
 
-
-        /* =========================
-           FILTER BUTTONS
-        ========================= */
-
         .filter-bar {
             display: flex;
             flex-wrap: wrap;
@@ -263,11 +215,6 @@
             color: white;
             border-color: #25352c;
         }
-
-
-        /* =========================
-           DESTINATION CARDS
-        ========================= */
 
         .destination-list {
             display: flex;
@@ -332,11 +279,6 @@
             color: #666;
         }
 
-
-        /* =========================
-           FOOTER
-        ========================= */
-
         .footer {
             background-color: #25352c;
             color: white;
@@ -394,11 +336,6 @@
             font-size: 13px;
         }
 
-
-        /* =========================
-           DARK MODE
-        ========================= */
-
         body.dark-mode {
             background-color: #18221c;
             color: #f7f5f0;
@@ -441,13 +378,7 @@
             color: #25352c;
         }
 
-
-        /* =========================
-           TABLET RESPONSIVE
-        ========================= */
-
         @media (max-width: 1000px) {
-
             .header {
                 padding: 15px 4%;
             }
@@ -484,15 +415,7 @@
             }
         }
 
-
-        /* =========================
-           MOBILE RESPONSIVE
-        ========================= */
-
         @media (max-width: 700px) {
-
-            /* HEADER */
-
             .header {
                 display: flex;
                 flex-direction: column;
@@ -510,9 +433,6 @@
                 font-size: 25px;
             }
 
-
-            /* NAVIGATION */
-
             .navigation {
                 justify-content: center;
                 gap: 5px;
@@ -523,9 +443,6 @@
                 font-size: 13px;
                 padding: 8px;
             }
-
-
-            /* PAGE INTRODUCTION */
 
             .page-hero {
                 padding: 45px 7%;
@@ -538,9 +455,6 @@
             .page-hero p {
                 font-size: 15px;
             }
-
-
-            /* SEARCH AND HEADING */
 
             .content-section {
                 width: 92%;
@@ -556,9 +470,6 @@
                 font-size: 30px;
             }
 
-
-            /* FILTER BUTTONS */
-
             .filter-bar {
                 gap: 7px;
             }
@@ -567,9 +478,6 @@
                 padding: 9px 14px;
                 font-size: 13px;
             }
-
-
-            /* DESTINATION CARDS */
 
             .destination-card {
                 grid-template-columns: 35px 1fr 25px;
@@ -607,9 +515,6 @@
                 font-size: 14px;
             }
 
-
-            /* FOOTER */
-
             .footer {
                 padding: 30px 6% 20px;
             }
@@ -627,16 +532,9 @@
                 flex-direction: column;
                 gap: 8px;
             }
-
         }
 
-
-        /* =========================
-           SMALL MOBILE PHONES
-        ========================= */
-
         @media (max-width: 400px) {
-
             .header {
                 padding: 15px 10px;
             }
@@ -686,59 +584,29 @@
                 padding: 8px 11px;
                 font-size: 12px;
             }
-
         }
-
     </style>
-
 </head>
-
 
 <body>
 
-
-    <!-- =========================
-         HEADER
-    ========================= -->
-
     <header class="header">
-
-
-        <!-- WEBSITE LOGO -->
-
         <div class="logo-container">
-
             <div class="brand-mark">LT</div>
-
             <div class="brand-name">
                 Lesotho<br>
                 <small>TRAILS</small>
             </div>
-
         </div>
-
-
-        <!-- WEBSITE HEADING -->
 
         <h1>LESOTHO TRAILS</h1>
 
-
-        <!-- NAVIGATION -->
-
         <nav class="navigation" aria-label="Main navigation">
-
             <a href="index.html">Home</a>
-
-            <a href="destinations.html" class="active">
-                Destinations
-            </a>
-
+            <a href="destinations.html" class="active">Destinations</a>
             <a href="polile.html">Activities</a>
-
             <a href="stay.html">Stay</a>
-
             <a href="gallery.html">Gallery</a>
-
             <a href="contact.html">Contact</a>
 
             <button
@@ -746,88 +614,47 @@
                 class="theme-button"
                 id="themeToggle"
                 aria-label="Switch to dark mode">
-
                 ◐
-
             </button>
-
         </nav>
-
     </header>
 
-
-    <!-- =========================
-         PAGE INTRODUCTION
-    ========================= -->
-
     <section class="page-hero">
-
         <p class="eyebrow">Places to begin</p>
-
         <h2>
             Take the long<br>
             <em>way around.</em>
         </h2>
-
         <p>
             From the northern gateway to the quiet eastern
             passes, these are the places that stay with you.
         </p>
-
     </section>
 
-
-    <!-- =========================
-         MAIN CONTENT
-    ========================= -->
-
     <main>
-
         <section class="content-section">
-
-
-            <!-- =========================
-                 SEARCH AND HEADING
-            ========================= -->
-
             <div class="section-heading">
-
                 <h2>
                     Pick a <em>direction.</em>
                 </h2>
 
-
-                <!-- SEARCH BOX -->
-
                 <div class="search-box">
-
                     <span class="search-icon">⌕</span>
-
                     <input
                         type="search"
                         id="destinationSearch"
                         placeholder="Search destinations"
                         aria-label="Search destinations">
-
                 </div>
-
             </div>
 
-
-            <!-- =========================
-                 DESTINATION FILTERS
-            ========================= -->
-
             <div class="filter-bar">
-
                 <button
                     type="button"
                     class="filter-button active"
                     data-filter="all"
                     aria-pressed="true">
-
                     All places
-
                 </button>
 
                 <button
@@ -835,9 +662,7 @@
                     class="filter-button"
                     data-filter="north"
                     aria-pressed="false">
-
                     North
-
                 </button>
 
                 <button
@@ -845,9 +670,7 @@
                     class="filter-button"
                     data-filter="central"
                     aria-pressed="false">
-
                     Central
-
                 </button>
 
                 <button
@@ -855,222 +678,108 @@
                     class="filter-button"
                     data-filter="east"
                     aria-pressed="false">
-
                     East
-
                 </button>
-
             </div>
 
-
-            <!-- =========================
-                 DESTINATION LIST
-            ========================= -->
-
             <div class="destination-list" id="destinationList">
-
-
-                <!-- DESTINATION 1 -->
-
-                <article
-                    class="destination-card"
-                    data-category="north">
-
+                <article class="destination-card" data-category="north">
                     <span class="number">01</span>
-
                     <div class="destination-info">
-
                         <h3>Maletsunyane</h3>
-
                         <p>
                             A thundering waterfall, cliff-top
                             walks and the gateway to Semonkong.
                         </p>
-
                     </div>
-
                     <img
                         src="semonkong.jpg"
                         alt="Green forest valley near Maletsunyane">
-
                     <span class="arrow">↗</span>
-
                 </article>
 
-
-                <!-- DESTINATION 2 -->
-
-                <article
-                    class="destination-card"
-                    data-category="central">
-
+                <article class="destination-card" data-category="central">
                     <span class="number">02</span>
-
                     <div class="destination-info">
-
                         <h3>Thaba-Tseka</h3>
-
                         <p>
                             High country, shepherd paths and a
                             horizon that seems to have no edge.
                         </p>
-
                     </div>
-
                     <img
                         src="thaba-tseka.jpg"
                         alt="Mountain landscape in warm afternoon light">
-
                     <span class="arrow">↗</span>
-
                 </article>
 
-
-                <!-- DESTINATION 3 -->
-
-                <article
-                    class="destination-card"
-                    data-category="east">
-
+                <article class="destination-card" data-category="east">
                     <span class="number">03</span>
-
                     <div class="destination-info">
-
                         <h3>Mokhotlong</h3>
-
                         <p>
                             The roof of the kingdom: dramatic
                             passes, clear rivers and open silence.
                         </p>
-
                     </div>
-
                     <img
                         src="mokhotlong.jpg"
                         alt="Rider travelling through a highland valley">
-
                     <span class="arrow">↗</span>
-
                 </article>
 
-
-                <!-- DESTINATION 4 -->
-
-                <article
-                    class="destination-card"
-                    data-category="north">
-
+                <article class="destination-card" data-category="north">
                     <span class="number">04</span>
-
                     <div class="destination-info">
-
                         <h3>Butha-Buthe</h3>
-
                         <p>
                             Ancient rock art, sandstone cliffs
                             and a softer introduction to the mountains.
                         </p>
-
                     </div>
-
                     <img
                         src="Botha-Bothe.jpg"
                         alt="Sandstone cliffs and mountain scenery in Butha-Buthe">
-
                     <span class="arrow">↗</span>
-
                 </article>
-
-
             </div>
-
-
-            <!-- NO SEARCH RESULTS MESSAGE -->
 
             <div class="no-results" id="noResults" aria-live="polite">
-
                 No destinations found. Try another search or filter.
-
             </div>
-
         </section>
-
     </main>
 
-
-    <!-- =========================
-         FOOTER
-    ========================= -->
-
     <footer class="footer">
-
-
-        <!-- FOOTER TOP -->
-
         <div class="footer-top">
-
-
-            <!-- FOOTER LOGO -->
-
             <div>
-
                 <a class="footer-brand" href="index.html">
-
                     <span class="brand-mark">LT</span>
-
                     <span class="brand-name">
                         Lesotho<br>
                         <small>TRAILS</small>
                     </span>
-
                 </a>
 
                 <p class="footer-copy">
                     A considered guide to the mountain kingdom.
                 </p>
-
             </div>
-
-
-            <!-- FOOTER LINKS -->
 
             <div class="footer-links">
-
-                <a href="activities.html">Explore</a>
-
+                <a href="polile.html">Explore</a>
                 <a href="contact.html">Plan a trip</a>
-
                 <a href="gallery.html">Journal</a>
-
             </div>
-
         </div>
-
-
-        <!-- FOOTER BOTTOM -->
 
         <div class="footer-bottom">
-
             <span>© 2026 Lesotho Trails</span>
-
             <span>Made for the road less travelled.</span>
-
         </div>
-
     </footer>
 
-
-    <!-- =========================
-         JAVASCRIPT
-    ========================= -->
-
     <script>
-
-
-        /* =========================
-           SEARCH AND FILTER
-        ========================= */
-
         const searchInput =
             document.getElementById("destinationSearch");
 
@@ -1083,24 +792,17 @@
         const noResults =
             document.getElementById("noResults");
 
-
         let selectedFilter = "all";
 
-
         function filterDestinations() {
-
             const searchText =
                 searchInput.value.trim().toLowerCase();
 
             let visibleCount = 0;
 
-
             destinationCards.forEach(function(card) {
-
                 const category = card.dataset.category;
-
-                const text =
-                    card.textContent.toLowerCase();
+                const text = card.textContent.toLowerCase();
 
                 const matchesCategory =
                     selectedFilter === "all" ||
@@ -1112,88 +814,48 @@
                 const showCard =
                     matchesCategory && matchesSearch;
 
-
-                card.style.display =
-                    showCard ? "grid" : "none";
-
+                card.style.display = showCard ? "grid" : "none";
 
                 if (showCard) {
-
                     visibleCount++;
-
                 }
-
             });
-
 
             noResults.style.display =
                 visibleCount === 0 ? "block" : "none";
-
         }
-
-
-        /* =========================
-           SEARCH INPUT
-        ========================= */
 
         searchInput.addEventListener(
             "input",
             filterDestinations
         );
 
-
-        /* =========================
-           FILTER BUTTONS
-        ========================= */
-
         filterButtons.forEach(function(button) {
-
             button.addEventListener("click", function() {
-
                 selectedFilter = button.dataset.filter;
 
-
                 filterButtons.forEach(function(item) {
-
                     item.classList.remove("active");
-
                     item.setAttribute("aria-pressed", "false");
-
                 });
 
-
                 button.classList.add("active");
-
                 button.setAttribute("aria-pressed", "true");
 
-
                 filterDestinations();
-
             });
-
         });
-
-
-        /* =========================
-           DARK MODE
-        ========================= */
 
         const themeToggle =
             document.getElementById("themeToggle");
 
-
         themeToggle.addEventListener("click", function() {
-
             document.body.classList.toggle("dark-mode");
-
 
             const darkMode =
                 document.body.classList.contains("dark-mode");
 
-
-            themeToggle.textContent =
-                darkMode ? "☀" : "◐";
-
+            themeToggle.textContent = darkMode ? "☀" : "◐";
 
             themeToggle.setAttribute(
                 "aria-label",
@@ -1201,14 +863,9 @@
                     ? "Switch to light mode"
                     : "Switch to dark mode"
             );
-
         });
-
-
     </script>
-
 
 </body>
 
 </html>
-```
